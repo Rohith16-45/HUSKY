@@ -1,10 +1,12 @@
 import "./App.css";
 
 function App() {
-  const name = "rohith";
+  const name = "Rohith";
+  console.log(legend);
+
   return (
     <div>
-      <h1>Husky Implement{name}</h1>
+      <h1>Husky Implement {name}</h1>
     </div>
   );
 }
